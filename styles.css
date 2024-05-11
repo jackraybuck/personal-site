@@ -34,7 +34,7 @@ a {
 }
 
 .homepage {
-    height: 95vh;
+    height: 95dvh;
     width:100%;
     justify-content: space-between;
 }
