@@ -349,6 +349,10 @@ header ul {
     .label {
         font-size:8px;
     }
+
+    .services-box {
+        margin-top: calc(6 * var(--spacer));
+    }
 }
 
 @keyframes load-in {
