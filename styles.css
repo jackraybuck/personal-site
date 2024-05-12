@@ -8,7 +8,7 @@
     --spacer:4px;
     --gray-med: #7D7D7D;
     --gray-light: #E3E3E3;
-    --gray-dark: #2B2B2B;
+    --gray-dark: #1C1C1C;
     --txt-small: 12px;
     --txt-med: 16px;
     --txt-l: 18px;
@@ -71,6 +71,10 @@ header {
     margin: 0 auto;
 }
 
+header a {
+    color: var(--gray-med)
+}
+
 header ul {
     list-style-type: none;
     gap: calc(8 * var(--spacer));
@@ -79,7 +83,7 @@ header ul {
 }
 
 .active {
-    font-weight: bold;
+    color: var(--gray-light);
 }
 
 .intro span {
@@ -267,7 +271,7 @@ header ul {
         content: "";
         display: block;
         margin: auto;
-        height: 3px;
+        height: 2px;
         width: 0;
         bottom: 10px;
         background: transparent;
@@ -278,7 +282,7 @@ header ul {
         content: "";
         display: block;
         margin: auto;
-        height: 3px;
+        height: 2px;
         width: 100%;
         bottom: 10px;
         background: #ED6435;
